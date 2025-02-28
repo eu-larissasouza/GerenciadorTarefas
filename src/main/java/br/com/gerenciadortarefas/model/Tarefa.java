@@ -8,9 +8,10 @@ import lombok.*;
 import java.time.LocalDate;
 
 @Entity
-@Table(name = "tarefa")
+@Table(name = "tarefas")
 @Getter
 @Setter
+@Builder
 @NoArgsConstructor
 @AllArgsConstructor
 @ToString
